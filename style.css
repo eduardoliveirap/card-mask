@@ -1,7 +1,7 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 
 .ui {
     border: 0;
-    box-shadow: 0 0 10px 0 rgba(149, 184, 209, .5);
+    box-shadow: 0 0 10´x 0 rgba(149, 184, 209, .5);
     border-radius: 10px;
     width: 60%;
     margin: 0 auto;
@@ -35,18 +35,18 @@ body {
     width: 50%;
     display: flex;
     align-items: center;
-
 }
 
 .card {
     width: 360px;
     height: 230px;
     margin: 0 auto;
-    background: linear-gradient(45deg, rgba(2,0,36,1), rgba(0,140,17,1) 35%, rgba(0,29,125,1)100%);
-    border: 1px solid rgba(0, 0, 0, .3);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(0,140,177,1) 35%, rgba(0,29,125,1) 100%);
+    border: 1px solid rgba(0,0,0,.3);
     border-radius: 15px;
 }
-.intern{
+
+.intern {
     padding: 20px;
 }
 
@@ -62,16 +62,15 @@ body {
     bottom: 20px;
 }
 
-.card-number{
-     margin-top: 40px;
-     font-size: 1.5rem;
-     font-weight: 700;
-     color: white;
-     display: flex;
+.card-number {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    display: flex;
 }
 
-.card-holder 
-{
+.card-holder {
     color: whitesmoke;
 }
 
@@ -98,12 +97,10 @@ body {
 .number-container, .name-container {
     display: flex;
     flex-direction: column;
-
 }
 
 .expiration-container, .cvv-container {
     width: 50%;
-
 }
 
 input {
@@ -118,32 +115,30 @@ input {
     width: 90%;
 }
 
-input[type='text']:focus {
-    border: 1px solid #95b8d1;
+input[type="text"]:focus {
+    border: 1px solid #95B8D1;
 }
 
 input#valid-thru-text, input#cvv-text {
     width: 80%;
 }
 
-input[type='submit'] {
+input[type="submit"] {
     width: 95%;
     background-color: #008cb1;
     cursor: pointer;
 }
 
-.infos-container{
+.infos-container {
     display: flex;
-    
 }
 
-@media (max-width : 1024px) {
-    ui{
+@media (max-width: 1024px) {
+    .ui {
         flex-direction: column-reverse;
     }
 
-    .container-left , .container-right {
+    .container-left, .container-right {
         width: 100%;
     }
 }
- 
